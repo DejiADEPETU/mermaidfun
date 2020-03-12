@@ -1,5 +1,5 @@
 # mermaidfun
-[Second Draft: With scaled-back objectives aimed at submiting a basic working Game as prof of concept]
+[Second Draft: With scaled-back objectives aimed at submiting a basic working Game as proof of concept]
 ## Project Proposal
 ### Due to the scope of the game as a whole, I objective is to build a proff of concept-game. I propose to work on the following milestones.
 
