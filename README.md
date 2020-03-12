@@ -1,7 +1,14 @@
 # mermaidfun
-[Second Draft: With scaled-back objectives aimed at submiting a basic working Game as proof of concept]
+[Second Draft: With scaled-back objectives aimed at submitting a basic working Game as proof of concept]
 ## Project Proposal
-### Due to the scope of the game as a whole, I objective is to build a proff of concept-game. I propose to work on the following milestones.
+### Due to the scope of the game as a whole, My objective is now to build a proof of concept-game. I propose to work on the following milestones.
+
+## Modified Objective;
+1. The [PLAYER1] objective is to collect treasurePoints while traversing an obstacle course.
+2. WINNING points are based on collated point and time spent against PLAYER2 or against the computer.
+3. Collision with creature[OBSTACLES] will reduce point while captured food will increase helth
+4. Winners are entered into the hall of fame: archived into the scoreRecords[recordKEEPER]
+5. Losers get to quit or try again [RepeatGAME]
 
 ## Wireframe
 #####Trimmed Down Version
@@ -11,20 +18,12 @@
 ![gamePlay4](images/level0.jpg)
 ![ReapeatPage](images/failure.jpg)
 ![OutroPage](images/success.jpg)
+
 ## Synopsis
-Title: Mermaid Fun Racing Game. [MFRG for short] - OR - [ MerFuRaG for short]
-This is a javascript game that runs in the DOM.
-It was inspired by suggestions from my daughters, Izzy & Tori.
-This game is thus based on the specifications of my first "real life" clients!
+######Title: Mermaid Fun Racing Game.
+A game (inspired by suggestions from my daughters, Izzy & Tori) that runs in the DOM drive by javascript.
  
-## Modified Objective;
-1. The [PLAYER1] objective is to collect treasurePoints while traversing an obstacle course.
-2. WINNING points are based on collated point and time spent against PLAYER2 or against the computer.
-3. Collision with creature[OBSTACLES] will reduce point while captured food will increase helth
-4. Winners are entered into the hall of fame: archived into the scoreRecords[recordKEEPER]
-5. Losers get to quit or try again [RepeatGAME]
- 
-## SCHEDULED (OBJECTIVES & GOALS)
+## SCHEDULED (Redefined OBJECTIVES & GOALS)
 Wed:
 1. Wireframe        										√ Done
 2. Collate & Design Game Characters 						√ Done
