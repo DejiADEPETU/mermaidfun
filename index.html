@@ -3,123 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mermaid Fun Racing Game. </title>
-    <!--[MFRG for short] - OR - [ MerFuRaG for short] This is a javascript game that runs in the DOM. It was inspired by suggestions from my daughters, Izzy & Tori. This game is thus based on the specifications of my first "real life" clients!
-     -->
-     <link ref href="styles.css" rel="stylesheet" type="text/css">
-     <!--link ref href="styles.css" rel="stylesheet" type="text/css"-->
-    <style>
-        body {font-family: Arial, Helvetica, sans-serif;}
-        canvas {
-            border: 1px solid #04288d;
-            background-color: #cce2f7;
-        }
-
-
-
-/* <!--                      ****************                    --> */
-
-        /* The Modal (background) */
-        .modal {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        padding-top: 100px; /* Location of the box */
-        left: 0;
-        top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-        }
-
-        /* Modal Content */
-        .modal-content {
-        position: relative;
-        background-color: #fefefe;
-        margin: auto;
-        padding: 0;
-        border: 1px solid #888;
-        width: 80%;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-        -webkit-animation-name: animatetop;
-        -webkit-animation-duration: 0.4s;
-        animation-name: animatetop;
-        animation-duration: 0.4s
-        }
-
-        /* Add Animation */
-        @-webkit-keyframes animatetop {
-        from {top:-300px; opacity:0} 
-        to {top:0; opacity:1}
-        }
-
-        @keyframes animatetop {
-        from {top:-300px; opacity:0}
-        to {top:0; opacity:1}
-        }
-
-        /* The Close Button */
-        .close {
-        color: white;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-        }
-
-        .modal-header {
-        padding: 2px 16px;
-        background-color: #5cb85c;
-        color: white;
-        }
-
-        .modal-body {padding: 2px 16px;}
-
-        .modal-footer {
-        padding: 2px 16px;
-        background-color: #5cb85c;
-        color: white;
-        }
-
-
-
-/* <!--                      ****************                    --> */
-
-    </style>
+    <title>Mermaid Fun Racing Game. </title>   <!--[MFRG for short] - OR - [ MerFuRaG for short] This is a javascript game that runs in the DOM. It was inspired by suggestions from my daughters, Izzy & Tori. This game is thus based on the specifications of my first "real life" clients!
+   |  javascript DOM Game inspire by weponizing pacMan  -->
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5/11.2/css/all.css" integrity="sha256-46ynGAKLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+    <link rel="javascript" href="script.js" type="text/js">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style></style>
 </head>
 
+
+
+
+
 <body onload="startGame()">
-    <script>
 
-    function startGame() {
-        myGameArea.start();
-    }
+  
 
-    var myGameArea = {
-        canvas : document.createElement("canvas"),
-        start : function() {
-            this.canvas.width = 960;
-            this.canvas.height = 640;
-            this.context = this.canvas.getContext("2d");
-            document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-        }
-    }
 
-    </script>
 
-<p>GameAREA\n CONTROLS: Point & Orient with the Mouse;   D =  J =GoForward; S = K = SUMIN; A = L = NUFIN; SPACEBAR = FIRE; \n E = I = LWEFJ; R = U = UHWB; T = Y = WERWE; \n V = B = EWEFF, SPACEBAR = Shoot,BLAST/ACT/ACTION/DEPLOY</p>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
+    
+
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+    <script src="script.js"></script>  
     <script src="app.js"></script>    
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--   <style> 
+         .MermaidFun{}
+        h4{}
+        .start{}
+        .startButtons{}
+        .mer1{}
+        .mer2{}
+    </style>
+</head>> 
+
+<body>
+   <div id="MermaidFun">
+       
+       <h1><span id="mer1">Mermaid Fun </span><span id="mer2">Racing Game</span>></h1>
+       <div id="start">
+           <button onclick="myFunction()">START</button>
+           <p id="launchGame"></p>
+       </div>
+
+
+
+           <ul id="gx">
+               <li>Select Players</li>
+               <li>Game Rules</li>
+           </ul>
+       </div>
+   </div>
+</body>  -->
+   

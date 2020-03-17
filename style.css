@@ -1,0 +1,15 @@
+body{
+    ;
+}
+
+canvas {
+padding: 0;
+margin: auto;
+display: flex;
+width: 80%;
+height: 80%
+/* position:absolute; */
+border: 3px solid #04288d;
+background-color: #cce2f7;
+margin-top:10px
+}
