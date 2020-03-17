@@ -1,11 +1,11 @@
 
 var myGamePiece;
-var myBackground;
+// var myBackground;
 
 function startGame() {
     myGameArea.start();
-    myGamePiece = new component(30, 30, "images/ax2.jpg", 10, 120, "image");
-    myBackground = new component(960, 620, "images/oceanic.gif", 0, 0, "image");
+    myGamePiece = new component(60, 60, "images/sMaid.png", 10, 120, "image");
+    // myBackground = new component(960, 620, "oceanic.gif", 0, 0, "image");
 }
 
 
@@ -68,8 +68,8 @@ function component(width, height, color, x, y, type) {
 
 function updateGameArea() {
     myGameArea.clear();
-    myBackground.newPos();
-    myBackground.update();
+    // myBackground.newPos();
+    // myBackground.update();
     myGamePiece.newPos();
     myGamePiece.update();
   }
