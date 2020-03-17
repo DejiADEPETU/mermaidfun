@@ -1,19 +1,21 @@
 body{
     background-color: #c3def7;
+    /* background-image: url("images/introPage.jpg"); */
     /* add background-sound/theme music in Phase2 */
 }
 
 canvas {
-padding: 0;
-margin: auto;
-display: flex;
-width: 90%;
-height: 90%;
-/* position:absolute; */
-border: 3px solid #04288d;
-background-size: 100%,100%;
-background-image: url("images/oceanic.gif");
-background-repeat:no-repeat;
-background-color: #05203a;
-margin-top:20px
+    padding: 0;
+    margin: auto;
+    display: flex;
+    width: 90%;
+    height: 90%;
+    /* position:absolute; */
+    border: 3px solid #04288d;
+    background-size: 100%,100%;
+    background-image: url("images/oceanic.gif");
+    background-repeat:no-repeat;
+    background-color: #05203a;
+    margin-top:20px
+    margin-bottom:20px;
 }
